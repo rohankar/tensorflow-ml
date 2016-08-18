@@ -4,4 +4,5 @@ Attempting to learn TensorFlow with a bunch of experiments.
 > https://github.com/tensorflow/tensorflow/blob/r0.10/tensorflow/examples/tutorials/mnist/input_data.py
 > http://yann.lecun.com/exdb/mnist/
 
-##Setting UP
+##	Setting UP
+Setup Tensor Flow by exacting the following steps:
