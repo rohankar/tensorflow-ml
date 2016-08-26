@@ -2,7 +2,7 @@ import tensorflow as tf
 
 # Import MINST data
 from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
+mnist = input_data.read_data_sets("/tmp/data/*", one_hot=True)
 
 # Parameters
 learning_rate = 0.01
@@ -40,7 +40,6 @@ with tf.Session() as sess:
         # Loop over all batches
         for i in range(total_batch):
             batch_xs, batch_ys = mnist.train.next_batch(batch_size)
-            # Run optimization op (backprop) and cost op (to get loss value)
             _, c = sess.run([optimizer, cost], feed_dict={x: batch_xs,
                                                           y: batch_ys})
             # Compute average loss
