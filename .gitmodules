@@ -1,0 +1,3 @@
+[submodule "awesome-tensorflow"]
+	path = awesome-tensorflow
+	url = https://github.com/jtoy/awesome-tensorflow.git
