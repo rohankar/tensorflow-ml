@@ -6,3 +6,5 @@ Attempting to learn TensorFlow with a bunch of experiments.
 
 ##	Setting UP
 Setup Tensor Flow by exacting the following steps:
+
+[https://git-scm.com/book/en/v2/Git-Tools-Submodules]
